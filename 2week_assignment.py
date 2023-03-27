@@ -27,9 +27,7 @@ def distance(x1, y1, x2, y2):
 def title():
     lylics = "Switch sides and I'm beside you."
     # your code
-    return lylics[-11:]
-
-print(title())
+    return lylics[-11:-1]
 
 # 7번
 def reverseStr(string):
